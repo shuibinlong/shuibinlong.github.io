@@ -711,7 +711,7 @@ math:
   # ! https://theme-stun.github.io/docs/zh-CN/advanced/third-part.html#mathjax
   # ! -------------------------------------------------------------------------------
   # Optional values: mathjax | katex
-  engine: mathjax
+  engine: katex
   mathjax:
     cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # See: https://mhchem.github.io/MathJax-mhchem/
@@ -722,7 +722,7 @@ math:
     cdn: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex:
-      enable: true
+      enable: false
       copy_tex_js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.min.js
       copy_tex_css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.css
 
