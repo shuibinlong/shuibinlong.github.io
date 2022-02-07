@@ -626,9 +626,9 @@ hexo-renderer-markdown-it-plus@^1.0.4:
     markdown-it-toc "^1.1.0"
     uslug "^1.0.4"
 
-hexo-renderer-pug@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.nlark.com/hexo-renderer-pug/download/hexo-renderer-pug-2.0.0.tgz"
+hexo-renderer-pug@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-pug/-/hexo-renderer-pug-3.0.0.tgz#4ca631cd0ecccefc43b70ac44230d5008956adc2"
   dependencies:
     pug "^3.0.2"
 
