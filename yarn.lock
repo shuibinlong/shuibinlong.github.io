@@ -17,11 +17,11 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@iktakahiro/markdown-it-katex@^3.0.3":
-  version "3.1.0"
-  resolved "https://registry.npmmirror.com/@iktakahiro/markdown-it-katex/download/@iktakahiro/markdown-it-katex-3.1.0.tgz"
+"@iktakahiro/markdown-it-katex@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@iktakahiro/markdown-it-katex/-/markdown-it-katex-4.0.1.tgz#65ff9d12afd4c0b7684dd247abe7ce42fc1edac3"
   dependencies:
-    katex "^0.10.0"
+    katex "^0.12.0"
 
 JSONStream@^1.0.7:
   version "1.3.5"
@@ -75,12 +75,6 @@ anymatch@~3.1.2:
 archy@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/archy/download/archy-1.0.0.tgz"
-
-argparse@^1.0.7:
-  version "1.0.10"
-  resolved "https://registry.nlark.com/argparse/download/argparse-1.0.10.tgz"
-  dependencies:
-    sprintf-js "~1.0.2"
 
 argparse@^2.0.1:
   version "2.0.1"
@@ -376,13 +370,9 @@ entities@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmmirror.com/entities/download/entities-2.2.0.tgz"
 
-entities@^3.0.1:
+entities@^3.0.1, entities@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-3.0.1.tgz#2b887ca62585e96db3903482d336c1006c3001d4"
-
-entities@~1.1.1:
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/entities/download/entities-1.1.2.tgz"
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -591,20 +581,20 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-markdown-it-plus@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmmirror.com/hexo-renderer-markdown-it-plus/download/hexo-renderer-markdown-it-plus-1.0.4.tgz"
+hexo-renderer-markdown-it-plus@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-markdown-it-plus/-/hexo-renderer-markdown-it-plus-1.0.5.tgz#4dfefe61b922a1086c6f44e93c365bed3b85d54b"
   dependencies:
-    "@iktakahiro/markdown-it-katex" "^3.0.3"
+    "@iktakahiro/markdown-it-katex" "^4.0.1"
     clone "^2.1.1"
-    highlight.js "^9.12.0"
-    markdown-it "^8.3.1"
+    highlight.js "^11.5.1"
+    markdown-it "^13.0.1"
     markdown-it-abbr "^1.0.4"
-    markdown-it-deflist "^2.0.3"
-    markdown-it-emoji "^1.4.0"
-    markdown-it-footnote "^3.0.1"
-    markdown-it-ins "^2.0.0"
-    markdown-it-mark "^2.0.0"
+    markdown-it-deflist "^2.1.0"
+    markdown-it-emoji "^2.0.2"
+    markdown-it-footnote "^3.0.3"
+    markdown-it-ins "^3.0.1"
+    markdown-it-mark "^3.0.1"
     markdown-it-sub "^1.0.0"
     markdown-it-sup "^1.0.0"
     markdown-it-toc "^1.1.0"
@@ -682,13 +672,9 @@ hexo@^6.2.0:
     titlecase "^1.1.3"
     warehouse "^4.0.1"
 
-highlight.js@^11.0.1:
+highlight.js@^11.0.1, highlight.js@^11.5.1:
   version "11.5.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.5.1.tgz#027c24e4509e2f4dcd00b4a6dda542ce0a1f7aea"
-
-highlight.js@^9.12.0:
-  version "9.18.5"
-  resolved "https://registry.npmmirror.com/highlight.js/download/highlight.js-9.18.5.tgz"
 
 htmlparser2@^7.0.0:
   version "7.2.0"
@@ -818,15 +804,15 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-katex@^0.10.0:
-  version "0.10.2"
-  resolved "https://registry.npmmirror.com/katex/download/katex-0.10.2.tgz?cache=0&sync_timestamp=1635844290801&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fkatex%2Fdownload%2Fkatex-0.10.2.tgz"
+katex@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.12.0.tgz#2fb1c665dbd2b043edcf8a1f5c555f46beaa0cb9"
   dependencies:
     commander "^2.19.0"
 
-linkify-it@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.npmmirror.com/linkify-it/download/linkify-it-2.2.0.tgz"
+linkify-it@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-4.0.1.tgz#01f1d5e508190d06669982ba31a7d9f56a5751ec"
   dependencies:
     uc.micro "^1.0.1"
 
@@ -840,25 +826,25 @@ markdown-it-abbr@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/markdown-it-abbr/download/markdown-it-abbr-1.0.4.tgz"
 
-markdown-it-deflist@^2.0.3:
+markdown-it-deflist@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.npm.taobao.org/markdown-it-deflist/download/markdown-it-deflist-2.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/markdown-it-deflist/-/markdown-it-deflist-2.1.0.tgz#50d7a56b9544cd81252f7623bd785e28a8dcef5c"
 
-markdown-it-emoji@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz"
+markdown-it-emoji@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-2.0.2.tgz#cd42421c2fda1537d9cc12b9923f5c8aeb9029c8"
 
-markdown-it-footnote@^3.0.1:
+markdown-it-footnote@^3.0.3:
   version "3.0.3"
-  resolved "https://registry.nlark.com/markdown-it-footnote/download/markdown-it-footnote-3.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
 
-markdown-it-ins@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/markdown-it-ins/download/markdown-it-ins-2.0.0.tgz"
+markdown-it-ins@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-ins/-/markdown-it-ins-3.0.1.tgz#c09356b917cf1dbf73add0b275d67ab8c73d4b4d"
 
-markdown-it-mark@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/markdown-it-mark/download/markdown-it-mark-2.0.0.tgz"
+markdown-it-mark@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-mark/-/markdown-it-mark-3.0.1.tgz#51257db58787d78aaf46dc13418d99a9f3f0ebd3"
 
 markdown-it-sub@^1.0.0:
   version "1.0.0"
@@ -872,13 +858,13 @@ markdown-it-toc@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/markdown-it-toc/download/markdown-it-toc-1.1.0.tgz"
 
-markdown-it@^8.3.1:
-  version "8.4.2"
-  resolved "https://registry.npmmirror.com/markdown-it/download/markdown-it-8.4.2.tgz"
+markdown-it@^13.0.1:
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-13.0.1.tgz#c6ecc431cacf1a5da531423fc6a42807814af430"
   dependencies:
-    argparse "^1.0.7"
-    entities "~1.1.1"
-    linkify-it "^2.0.0"
+    argparse "^2.0.1"
+    entities "~3.0.1"
+    linkify-it "^4.0.1"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
@@ -1260,10 +1246,6 @@ source-map@^0.7.3:
 sprintf-js@^1.0.3:
   version "1.1.2"
   resolved "https://registry.nlark.com/sprintf-js/download/sprintf-js-1.1.2.tgz"
-
-sprintf-js@~1.0.2:
-  version "1.0.3"
-  resolved "https://registry.nlark.com/sprintf-js/download/sprintf-js-1.0.3.tgz"
 
 "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"
