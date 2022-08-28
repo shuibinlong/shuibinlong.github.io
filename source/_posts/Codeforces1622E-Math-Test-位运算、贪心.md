@@ -1,7 +1,7 @@
 ---
 title: Codeforces1622E - Math Test - 位运算、贪心
 date: 2022-01-05 13:19:16
-tags:
+tags: 算法竞赛
 ---
 
 **题目链接：** https://codeforces.com/contest/1622/problem/E

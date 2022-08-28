@@ -1,7 +1,7 @@
 ---
 title: Codeforces1657C - Bracket Sequence Deletion - 贪心
 date: 2022-03-31 23:51:40
-tags:
+tags: 算法竞赛
 ---
 **题目链接：** https://codeforces.com/contest/1657/problem/C
 
