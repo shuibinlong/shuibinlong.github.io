@@ -585,9 +585,9 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-markdown-it-plus@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-markdown-it-plus/-/hexo-renderer-markdown-it-plus-1.0.5.tgz#4dfefe61b922a1086c6f44e93c365bed3b85d54b"
+hexo-renderer-markdown-it-plus@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-markdown-it-plus/-/hexo-renderer-markdown-it-plus-1.0.6.tgz#13a2094ef6925fb582208e582b12a407749b6f25"
   dependencies:
     "@iktakahiro/markdown-it-katex" "^4.0.1"
     clone "^2.1.1"
